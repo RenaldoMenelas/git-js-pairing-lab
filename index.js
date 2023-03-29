@@ -36,4 +36,10 @@ function multiply(num1 ,num2){
     return num1 * num2
 }
 
-console.log(multiply(1,5))
+//console.log(multiply(1,5))
+
+function add(num1, num2){
+    return num1 + num2
+}
+
+console.log(add(9,9))
