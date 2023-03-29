@@ -68,4 +68,20 @@ if(num >=19 && num <= 40){
 }
 
 
-console.log(betweenTwentyAndFourty(28))
+//console.log(betweenTwentyAndFourty(28))
+
+function largest(a,b,c){
+    let max = a
+    if(max < b){
+        max = b
+    }
+    if(max < c){
+        max = c
+    }
+    return max
+    
+}
+//console.log(largest(3,4,5))
+//console.log(largest(5,4,3))
+//console.log(largest(1,3,2))
+
