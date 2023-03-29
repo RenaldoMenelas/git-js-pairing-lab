@@ -85,3 +85,13 @@ function largest(a,b,c){
 //console.log(largest(5,4,3))
 //console.log(largest(1,3,2))
 
+function printTime(){
+    let date = new Date()
+    let hours = date.getHours()
+let minintes = date.getMinutes()
+let seconds =  date.getSeconds()
+return`${hours}:${minintes}:${seconds}`
+
+}
+console.log(printTime())
+
