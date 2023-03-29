@@ -95,3 +95,9 @@ return`${hours}:${minintes}:${seconds}`
 }
 console.log(printTime())
 
+function isLeapYear(num){
+    return num % 4 === 0
+}
+
+console.log(isLeapYear(2020))
+console.log(isLeapYear(2023))
