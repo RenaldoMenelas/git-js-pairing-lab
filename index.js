@@ -31,4 +31,9 @@ function untilNum(num){
         console.log(i)
     }
 }
-untilNum(9)
+//untilNum(9)
+function multiply(num1 ,num2){
+    return num1 * num2
+}
+
+console.log(multiply(1,5))
