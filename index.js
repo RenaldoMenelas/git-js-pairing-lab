@@ -49,4 +49,11 @@ return num < 0
 }
 
 
-console.log(isNegative(-1))
+//console.log(isNegative(-1))
+
+function triangleArea(area, height){
+    return multiply(area, height) / 2
+}
+
+console.log(triangleArea(10,10))
+
