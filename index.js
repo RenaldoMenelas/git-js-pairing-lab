@@ -57,3 +57,15 @@ function triangleArea(area, height){
 
 console.log(triangleArea(10,10))
 
+
+function betweenTwentyAndFourty(num){
+if(num >=19 && num <= 40){
+  return true
+}
+  else{
+     return false
+}
+}
+
+
+console.log(betweenTwentyAndFourty(28))
